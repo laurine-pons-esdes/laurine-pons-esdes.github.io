@@ -1,0 +1,7 @@
+#home{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    height: 75px;
+    width: 100%;
+}
