@@ -26,8 +26,6 @@ section{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    min-height: 100%;
-    height:100px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -46,9 +44,33 @@ section .article-content{
 
     }
 
+/*******
+* EXPERIENCE
+*/ 
+
 #experiences{
     background-color: thistle;
-    }
+    min-height: 170%;
+    display: flex;
+    flex-direction: column;
+}
+
+#xp-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+#experiences article {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
 
 #autres-activites{
     background-color: silver;
@@ -56,6 +78,7 @@ section .article-content{
 
 #contact-me{
     background-color: seashell;
+    flex-direction: row-reverse;
 }
 
 #home{
@@ -78,4 +101,29 @@ button{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    margin: 12px;
 }
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+h4{
+    text-align: center;
+}
+
+h5{
+    text-align: center;
+}
+
+
+div{
+    text-align: justify;
+}
+
+
+
