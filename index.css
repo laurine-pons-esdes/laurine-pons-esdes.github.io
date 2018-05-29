@@ -125,5 +125,18 @@ div{
     text-align: justify;
 }
 
+#me{
+    animation: enter 2s ease-in-out 1 alternate;
+}
+
+@keyframes enter {
+    from{
+        transform:translateX(-300px);
+    }
+    to{
+        transform:translateX(0px);
+    }
+}
+
 
 
