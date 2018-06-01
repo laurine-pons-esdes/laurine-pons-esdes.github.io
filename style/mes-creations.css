@@ -1,37 +1,38 @@
+body{
+    margin: 0px;
+}
 #home{
     position: fixed;
     bottom: 0;
     background-color: black;
     height: 75px;
     width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-section{
+.mes-creations-1{
+    width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
+    background-image: gray;
+}
+.mes-creations-1 img{
+    width: 50%;
+    filter: grayscale(100%)
 }
 
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: lemonchiffon;
+    margin: 0%;
+    padding: 10px;
 }
 
-div.gallery:hover {
-    border: 1px solid #777;
-}
 
-div.gallery img {
-    width: 100%;
-    height: auto;
-}
 
-div.desc {
-    padding: 15px;
-    text-align: center;
+.mes-creations-1 img:hover{
+    filter: grayscale(0%);
+    transition: all 0.3s cubic-bezier(0.01,.4,1,.62);
 }
-
 
